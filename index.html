@@ -1,0 +1,492 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="MHI1001">
+    <title>Joey's Website</title>
+
+    <!-- bootstrap.min css -->
+    <link rel="stylesheet" href="plugins/bootstrap/css/bootstrap.min.css">
+    <!-- Icon Font Css -->
+    <link rel="stylesheet" href="plugins/themify/css/themify-icons.css">
+    <link rel="stylesheet" href="plugins/fontawesome/css/all.css">
+    <link rel="stylesheet" href="plugins/magnific-popup/dist/magnific-popup.css">
+    <!-- Owl Carousel CSS -->
+    <link rel="stylesheet" href="plugins/slick-carousel/slick/slick.css">
+    <link rel="stylesheet" href="plugins/slick-carousel/slick/slick-theme.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <!-- Main Stylesheet -->
+    <link rel="stylesheet" href="https://cdn.bootcss.com/element-ui/2.4.5/theme-chalk/index.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="plugins/jquery/jquery.js"></script>
+    <script src="js/jquery.popup.js"></script>
+    <script src="js/vue.min.js"></script>
+    <script src="plugins/element/index.js"></script>
+	<!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-LFQFDDQFRL"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-90H66TWR73');
+    </script>
+
+</head>
+
+<body>
+
+
+<header class="navigation">
+    <div class="header-top ">
+        <div class="container">
+            <div class="row justify-content-between align-items-center">
+                <div class="col-lg-2 col-md-4">
+                    <div class="header-top-socials text-center text-lg-left text-md-left">
+                        <a href="https://twitter.com/JQZ916" target="_blank"><i class="ti-twitter"></i></a>
+                        <a href="https://www.linkedin.com/in/joeyzhang1/" target="_blank"><i
+                                class="ti-linkedin"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-10 col-md-8 text-center text-lg-right text-md-right">
+                    <div class="header-top-info">
+                        <a href="mailto:changetoyouremail@gmail.com"><i
+                                class="fa fa-envelope mr-2"></i><span>joey.zhang@mail.utoronto.ca</span></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <nav class="navbar navbar-expand-lg  py-4" id="navbar">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                Joey <span>ZHANG</span>
+            </a>
+
+            <button class="navbar-toggler collapsed" type="button" data-toggle="collapse"
+                    data-target="#navbarsExample09" aria-controls="navbarsExample09" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                <span class="fa fa-bars"></span>
+            </button>
+
+            <div class="collapse navbar-collapse text-center" id="navbarsExample09">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item"><a class="nav-link" href="index.html#intro" target="_blank">About Me</a></li>
+                    <li class="nav-item"><a class="nav-link"
+                                            href="https://www.linkedin.com/in/joeyzhang1/" target="_blank">LinkedIn</a>
+                    </li>
+                    <li class="nav-item"><a class="nav-link" href="https://twitter.com/JQZ916" target="_blank">Twitter</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html" target="_blank">Contact</a></li>
+                </ul>
+
+                <form class="form-lg-inline my-2 my-md-0 ml-lg-4 text-center">
+                    <!-- <a href="contact.html" class="btn btn-solid-border btn-round-full">Get a Quote</a> -->
+                    <input type="text" class="search" placeholder="Search something">
+                </form>
+            </div>
+        </div>
+    </nav>
+</header>
+
+<!-- Header Close -->
+
+<div class="main-wrapper " id="main-wrapper">
+    <!-- Slider Start -->
+    <section class="slider">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-9 col-md-10">
+                    <div class="block">
+                        <h1 class="animated fadeInUp mb-5">Welcome to Joey's website!</h1>
+                        <a href="#intro" class="btn btn-main animated fadeInUp btn-round-full">Get started<i
+                                class="btn-icon fa fa-angle-right ml-2"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Section Intro Start -->
+    <style>
+
+        .myModal {
+            max-width: 600px;
+            padding: 1em;
+            background: #eee;
+            display: none;
+            position: relative;
+            box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.15);
+        }
+
+        /*Close Button*/
+        .item-close {
+            cursor: pointer;
+            right: 5px;
+            top: 5px;
+            position: absolute;
+            background: #222;
+            color: #fff;
+            border-radius: 100%;
+            font-size: 14px;
+            height: 24px;
+            line-height: 22px;
+            text-align: center;
+            width: 24px;
+        }
+    </style>
+    <section class="section intro" id="intro">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8">
+                    <div class="section-title">
+                        <span class="h6 text-color ">About Myself</span>
+                        <h2 class="mt-3 content-title">I'm Joey ZHANG</h2>
+                    </div>
+                    <div class="section-sm">
+                        <p>
+                            I have an education background in BSc in Kinesiology and Medical Radiation Science.<br/>
+                            I have been working as a frontline healthcare professional specializing in medical
+                            imaging,
+                            modalities include X-ray and CT.<br/>
+                            As a clinician in the Canadian healthcare system, I have realized the gap between
+                            healthcare, healthcare data, and digital technology. Hoping to make a change to better
+                            our
+                            healthcare system, I am now pursuing my studies at the University of Toronto as a
+                            candidate
+                            for Master of Health Informatics, graduating 2024.
+                        </p>
+                        <p>
+                            Besides working and studying, I enjoy travelling and singing.<br/>
+                            Here's a <a href="https://app.box.com/s/0pcs6mbigkrkwaqt1ml04wuju9r7cyxd">sample
+                            cover</a>
+                            of my singing.<br/>
+                            Check out my recent travel to <strong>Jeju-do, South Korea</strong>.
+                        </p>
+
+                    </div>
+                </div>
+                <div class="col-lg-4 ">
+                    <div class="containers">
+                        <div class="parent img-active" @click="handleShowModal(item.id)" v-for="item in urls ">
+                            <img :src="item.url"
+                                 class="w-100 images-to"
+                                 alt="Boat on Calm Water"/>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Intro END -->
+    <!-- Section About Start -->
+
+    <section class="section about position-relative">
+        <div class="bg-about"></div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 offset-lg-6 offset-md-4">
+                    <div class="about-item ">
+                        <span class="h6 text-color">Learn more about my work</span>
+                        <h2 class="mt-3 mb-4 position-relative content-title">CT/X-ray Technologist</h2>
+                        <div class="about-content">
+                            <iframe src="Linkedin.html" style="width: 400px;height:350px;border: none"></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section About End -->
+
+    <section class="mt-70 position-relative">
+        <div class="container">
+            <div class="cta-block-2 bg-gray p-5 rounded border-1">
+                <div class="row justify-content-center align-items-center ">
+                    <div class="col-lg-7">
+                        <span class="text-color">For everyone who is interested</span>
+                        <h2 class="mt-2 mb-4 mb-lg-0">Wanna contact with me?</h2>
+                    </div>
+                    <div class="col-lg-4">
+                        <a href="contact.html" target="_blank" class="btn btn-main btn-round-full float-lg-right ">Contact
+                            Us</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- footer Start -->
+    <footer class="footer section">
+        <div class="container">
+          <script src="plugins/bootstrap/js/bootstrap.min.js"></script>
+            <div class="row">
+                <div class="col-lg-6 col-md-6 col-sm-6">
+                   <p><!--webbot bot="HTMLMarkup" startspan --><script type = "text/javascript">
+
+/***********************************************
+* Display time of last visit script- by JavaScriptKit.com
+* This notice MUST stay intact for use
+* Visit JavaScript Kit at http://www.javascriptkit.com/ for this script and more
+***********************************************/
+
+var days = 730;
+var lastvisit=new Object();
+var firstvisitmsg="This is your first visit to this page. Welcome!"; 
+lastvisit.subsequentvisitmsg="Welcome back visitor! Your last visit was on <b>[displaydate]</b>";
+
+lastvisit.getCookie=function(Name){ 
+var re=new RegExp(Name+"=[^;]+", "i"); 
+if (document.cookie.match(re)) 
+return document.cookie.match(re)[0].split("=")[1];
+return''; 
+}
+
+lastvisit.setCookie=function(name, value, days){ 
+var expireDate = new Date();
+
+var expstring=expireDate.setDate(expireDate.getDate()+parseInt(days));
+document.cookie = name+"="+value+"; expires="+expireDate.toGMTString()+"; path=/";
+}
+
+lastvisit.showmessage = function() {
+var wh = new Date();
+if (lastvisit.getCookie("visitc") == "") { 
+lastvisit.setCookie("visitc", wh, days); 
+document.write(firstvisitmsg);
+}
+
+else {
+var lv = lastvisit.getCookie("visitc");
+var lvp = Date.parse(lv);
+var now = new Date();
+now.setTime(lvp);
+var day = new Array("Sun", "Mon", "Tues", "Wed", "Thur", "Fri", "Sat");
+var month = new Array ("Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec");
+var dd = now.getDate();
+var dy = now.getDay();
+dy = day[dy];
+var mn = now.getMonth();
+mn = month[mn];
+yy = now.getFullYear();
+var hh = now.getHours();
+var ampm = "AM";
+if (hh >= 12) {ampm = "PM"}
+if (hh >12){hh = hh - 12};
+if (hh == 0) {hh = 12}
+if (hh < 10) {hh = "0" + hh};
+var mins = now.getMinutes();
+if (mins < 10) {mins = "0"+ mins}
+var secs = now.getSeconds();
+if (secs < 10) {secs = "0" + secs}
+var dispDate = dy + ", " + mn + " " + dd + ", " + yy + " " + hh + ":" + mins + ":" + secs + " " + ampm
+document.write(lastvisit.subsequentvisitmsg.replace("\[displaydate\]", dispDate))
+}
+
+lastvisit.setCookie("visitc", wh, days);
+
+}
+
+lastvisit.showmessage();
+
+</script><!--webbot bot="HTMLMarkup" endspan i-checksum="28753" --></p>
+
+
+                </div>
+
+                <div class="col-lg-3 ml-auto col-sm-6">
+                    <div class="widget">
+                        <div class="logo mb-4">
+                            <h3>Joey <span>ZHANG</span></h3>
+                        </div>
+                        <h6><a href="mailto:joey.zhang@mail.utoronto.ca">joey.zhang@mail.utoronto.cam</a></h6>
+                    </div>
+                </div>
+
+            <div class="footer-btm pt-4">
+                <div class="row">
+                    <div class="col-lg-4 col-md-12 col-sm-12 text-left text-lg-left">
+                        <ul class="list-inline footer-socials">
+                            <li class="list-inline-item"><a href="https://twitter.com/JQZ916"><i
+                                    class="ti-twitter mr-2"></i>Twitter</a></li>
+                            <li class="list-inline-item"><a href="https://www.linkedin.com/in/joeyzhang1/"><i
+                                    class="ti-linkedin mr-2 "></i>Linkedin</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <style>
+        .imagestodo {
+            display: none;
+        }
+
+        .imagestodo.active {
+            display: block;
+        }
+    </style>
+    <el-dialog
+            :visible.sync="isShowModal  "
+            :width="width"
+            :before-close="handleClose">
+        <div style="display:flex;">
+            <div @click="left"><img src="./images/left.png" alt="" width="50" height="50"></div>
+            <div style="width: 90%;overflow:hidden;display: flex;">
+                <template v-for="item in urls" :key="item.id">
+                    <div v-show="item.isShow">
+                        <img :src="item.url" style="width: 100%;">
+                        <div>{{ item.text }}</div>
+                    </div>
+                </template>
+            </div>
+            <div @click="right"><img src="./images/right.png" alt="" width="50" height="50"></div>
+        </div>
+    </el-dialog>
+
+</div>
+	
+<!--Gallery-->
+
+<script>
+
+    const vue = new Vue({
+        el: "#main-wrapper",
+        data: {
+            isShowModal: false,
+            urls: [
+                { id: 1, url: 'images/gallery/IMG_1916.jpg', isShow: true, text: 'Waterfall' },
+                { id: 2, url: 'images/gallery/IMG_1931.jpg', isShow: false, text: 'Daepo Jusangjeolli Cliff1' },
+                { id: 3, url: 'images/gallery/IMG_1936.jpg', isShow: false, text: 'Daepo Jusangjeolli Cliff2' },
+                { id: 4, url: 'images/gallery/IMG_2104.jpg', isShow: false, text: "Seopjikoji" },
+            ],
+            current_id: 1,
+            oldTime: ''
+        },
+        computed: {
+            width() {
+                return parseFloat(window.screen.width) > 600 ? '70%' : '80%'
+            }
+        },
+        created() {
+            var opentime = localStorage.getItem('opentime');
+            var d = new Date();
+            Date.prototype.toLocaleString = function () {
+                d = this.getFullYear() + " - " + (this.getMonth() + 1) + " - " + this.getDate() + " - " + this.getHours() + " : " + this.getMinutes() + " - " + this.getSeconds() + " : ";
+                return d
+            };
+            setTimeout(function () {
+                localStorage.setItem("opentime", new Date().toLocaleString())
+            }, 500)
+
+
+            this.oldTime = opentime
+        },
+        methods: {
+            handleShowModal(id) {
+                this.isShowModal = true
+                this.urls = this.urls.map(item => {
+                    if (item.id === id) {
+                        item.isShow = true
+                    } else {
+                        item.isShow = false
+                    }
+                    return item
+                })
+            },
+            handleClose() {
+                this.isShowModal = false
+            },
+            left() {
+                var id = this.urls.find(item => item.isShow).id
+                if (id == 1) {
+                    return
+                }
+                id = --id
+                this.urls = this.urls.map(item => {
+                    if (item.id === id) {
+                        item.isShow = true
+                    } else {
+                        item.isShow = false
+                    }
+                    return item
+                })
+            },
+            right() {
+                var id = this.urls.find(item => item.isShow).id
+                if (id == 4) {
+                    return
+                }
+                id = ++id
+                this.urls = this.urls.map(item => {
+                    if (item.id === id) {
+                        item.isShow = true
+                    } else {
+                        item.isShow = false
+                    }
+                    return item
+                })
+            },
+        }
+    })
+
+</script>
+
+<!--
+Essential Scripts
+=====================================-->
+
+
+<!-- Main jQuery -->
+<script src="plugins/jquery/jquery.js"></script>
+<script src="js/contact.js"></script>
+<!-- Bootstrap 4.3.1 -->
+<script src="plugins/bootstrap/js/popper.js"></script>
+<!--  Magnific Popup-->
+<script src="plugins/magnific-popup/dist/jquery.magnific-popup.min.js"></script>
+<!-- Slick Slider -->
+<script src="plugins/slick-carousel/slick/slick.min.js"></script>
+<!-- Counterup -->
+<script src="plugins/counterup/jquery.waypoints.min.js"></script>
+<script src="plugins/counterup/jquery.counterup.min.js"></script>
+
+<!-- Google Map -->
+<script src="plugins/google-map/map.js"></script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAkeLMlsiwzp6b3Gnaxd86lvakimwGA6UA&callback=initMap"></script>
+
+<script src="js/script.js"></script>
+<style>
+    .parent {
+        position: relative;
+    }
+
+    .parent::before {
+        content: '';
+        position: absolute;
+        left: 0;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        background: linear-gradient(-45deg, transparent 30%, transparent, rgba(255, 255, 255, .5), transparent 70%) no-repeat;
+        background-size: 200% 200%;
+        background-position: 200% 200%;
+    }
+
+    .parent:hover::before {
+        transition: background-position 3s;
+        background-position: -100% -100%;
+    }
+
+</style>
+<script>
+
+</script>
+</body>
+</html>
