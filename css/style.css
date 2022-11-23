@@ -510,7 +510,7 @@ ul.dropdown-menu li {
 }
 
 .slider {
-    background: url("../images/bg/bg1.jpg") no-repeat;
+    background: url("../images/bg/bg3.jpg") no-repeat;
     background-size: cover;
     background-position: 10% 0%;
     padding: 200px 0 280px 0;
@@ -564,7 +564,7 @@ ul.dropdown-menu li {
     top: 0px;
     width: 45%;
     min-height: 650px;
-    background: url("../images/bg/bg2.jpg") no-repeat;
+    background: url("../images/bg/bg4.jpg") no-repeat;
     background-size: cover;
 }
 
