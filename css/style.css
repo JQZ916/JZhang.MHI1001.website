@@ -119,7 +119,7 @@ input[type="email"]:focus, input[type="password"]:focus, input[type="text"]:focu
 .btn-solid-border {
     border: 2px solid #f75757;
     background: transparent;
-    color: #242424;
+    color: #8daab7;
 }
 
 .btn-solid-border:hover {
@@ -182,7 +182,7 @@ input[type="email"]:focus, input[type="password"]:focus, input[type="text"]:focu
 }
 
 .bg-dark {
-    background: #242424;
+    background: #8daab7;
 }
 
 .bg-gradient {
